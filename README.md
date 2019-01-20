@@ -15,9 +15,7 @@ React.render(
     document.getElementById('app')
 );
 ```
-
 There is a bundled version available in `dist`, where the css is bundled together with the component via webpack.
-
 ### props
 #### `addSeatCallback: PropTypes.func(row, number)`
 The callback executed when a seat is added
